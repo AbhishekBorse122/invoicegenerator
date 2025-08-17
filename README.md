@@ -1,12 +1,27 @@
-# React + Vite
+# 🧾 Invoice Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and customizable Invoice Generator built with **React**. 
+Add invoice details, issuer/recipient info, items, discounts, taxes, and generate the final invoice & you can also download the pdf of invoice.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Add/edit invoice details
+- Dynamic line items with quantity and price
+- Real-time subtotal, discount, tax, and total calculation
+- Form validation and edge case handling
+- Toast notifications for user feedback
+- Clean and modular React architecture using Context API
+- Download Invoice PDF with one click
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Demo
+<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/681444ba-5fb0-4d07-a08e-ed244234bffe" />
+<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/2923b47c-951c-4242-915f-7af147552339" />
+
+
+## 🛠️ Built With
+
+- ⚛️ React
+- 🧠 Context API for state management
+- 💅 Tailwind CSS & Shadcn UI for styling
+- 🛑 DOM to Image & JSPDF library for PDF creation
